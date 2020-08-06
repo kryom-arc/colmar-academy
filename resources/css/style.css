@@ -201,7 +201,7 @@ a {
             color: rgb(84, 84, 84);
         }
             .courses h2 {
-                font-size: 3.2vw;
+                font-size: 3.5vw;
                 margin: 3vw auto;
             }
             /* -- big-container ---------------------------------- */
@@ -270,7 +270,7 @@ a {
             .thesis h2 {
                 color: rgb(84, 84, 84);
                 margin: 3vw;
-                font-size: 4vw;
+                font-size: 3.5vw;
             }
             /* -- caixa ---------------------------------- */
             .caixa {
@@ -347,6 +347,7 @@ a {
         border-top: 2px solid lightgray;
         display: flex;
         justify-content: space-between;
+        font-size: 1.2vw;
     }
         footer ul {
             width: 13%;
