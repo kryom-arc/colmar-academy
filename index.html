@@ -15,10 +15,29 @@
         </section>
         <nav>
             <ul>
-                <li><a href="#">On campus</a></li>
-                <li><a href="#">Online</a></li>
-                <li><a href="#">For companies</a></li>
-                <li><a href="#">Sign in</a></li>
+                <li class="campus">
+                    <a href="#">
+                        <img src="./resources/images/ic-on-campus.svg" alt="">
+                        <p>On campus</p>
+                    </a>
+                </li>
+                <li class="online">
+                    <a href="#">
+                        <img src="./resources/images/ic-online.svg" alt="">
+                        <p>Online</p>
+                    </a>
+                </li>
+                <li class="companies">
+                    <a href="#">
+                        <p>For companies</p>
+                    </a>
+                </li>
+                <li class="signin">
+                    <a href="#">
+                        <img src="./resources/images/ic-login.svg" alt="">
+                        <p>Sign in</p>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -42,7 +61,11 @@
             </section>
             <article>
                 <section class="articles">
-                    <img src="./resources/images/information-orientation.jpg" alt="upper vision from people and their shadows">
+                    <img 
+                        src="./resources/images/information-orientation.jpg" 
+                        srcset="./resources/images/information-orientation-mobile.jpg"
+                        sizes="(max-width: 600px)"
+                        alt="upper vision from people and their shadows">
                     <section>
                         <h3>Orientation date</h3>
                         <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -50,7 +73,11 @@
                     </section>
                 </section>
                 <section class="articles">
-                    <img src="./resources/images/information-campus.jpg" alt="desk with people studying">
+                    <img 
+                    src="./resources/images/information-campus.jpg" 
+                    srcset="./resources/images/information-campus-mobile.jpg"
+                    sizes="(max-width: 600px)"
+                    alt="desk with people studying">
                     <section>
                         <h3>Our Campus</h3>
                         <p>Find which campus is close by you</p>
@@ -58,7 +85,11 @@
                     </section>
                 </section>
                 <section class="articles">
-                    <img src="./resources/images/information-guest-lecture.jpg" alt="old man with white beard, glasses and berret">
+                    <img 
+                    src="./resources/images/information-guest-lecture.jpg" 
+                    srcset="./resources/images/information-guest-lecture-mobile.jpg"
+                    sizes="(max-width: 600px)"
+                    alt="old man with white beard, glasses and berret">
                     <section>
                         <h3>Our guest lecture</h3>
                         <p>Join a keynote with Oliver Sacks about music in medical treatment</p>
